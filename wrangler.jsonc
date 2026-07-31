@@ -83,7 +83,7 @@
       "class_name": "Sandbox",
       "image": "./Dockerfile",
       "instance_type": "standard-1", // change this for larger or smaller containers
-      "name": "claude-managed-agents-sandbox",
+      "name": "open-agents-sandbox",
       "max_instances": 100, // change this for more concurrent agents
       // 30-minute grace period for active sessions during a rollout — gives
       // an in-flight agent run time to wind down before the old container
